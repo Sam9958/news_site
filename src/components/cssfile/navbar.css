@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+.navbar{
+    display: flex;
+    /* padding: 1%; */
+    /* border: 2px solid black; */
+    /* background-color: black; */
+}
+.headlines{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+}
+.logo{
+    width: 50%;
+}
+.item{
+    width: 48%;
+}
+.logo img{
+    width: 7%;
+    /* border: 2px solid blue; */
+    border-radius: 25%;
+    margin: 1%;
+    cursor: pointer;
+    /* margin-top: 7px; */
+}
+.item ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 2px solid red; */
+    width: 100%;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+ li {
+    /* border: 2px solid black; */
+    text-decoration: none;
+    margin: 1%;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+.body::before{
+    content: "";
+    position: absolute;
+    background:url(./img/bg1.webp);
+    background-size: cover ;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+.mid{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.search {
+    width: 100%;
+    text-align: center;
+
+}
+.search button{
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 6%;
+    cursor: pointer;
+    background: #fffbea;
+}
+.search input{
+    font-family: 'Mukta', sans-serif;
+    padding: 1%;
+    border-radius: 20px;
+    margin: 0% 1%;
+    width: 18%;
+    background: #fffbea;
+    font-weight: 600;
+}
+.line{
+    font-family: 'Mukta', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+/* typing effect */
