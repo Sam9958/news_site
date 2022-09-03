@@ -49,3 +49,25 @@
   margin: 1%;
   
 }
+
+@media only screen and (max-width: 1000px) {
+  .card{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mid{
+    height: 65vh;
+  }
+  .logo {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 1000px) and (min-width:500px) {
+  .card{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
